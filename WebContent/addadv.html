@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Free HTML5 Bootstrap Admin Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template."/>
+    <meta name="author" content="Muhammad Usman"/>
+
+    <!-- The styles -->
+    <link id="bs-css" href="css/bootstrap-cerulean.min.css" rel="stylesheet"/>
+
+    <link href="css/charisma-app.css" rel="stylesheet"/>
+    <link href='css/fullcalendar.css' rel='stylesheet'/>
+    <link href='css/fullcalendar.print.css' rel='stylesheet' media='print'/>
+    <link href='css/chosen.min.css' rel='stylesheet'/>
+    <link href='css/colorbox.css' rel='stylesheet'/>
+    <link href='css/responsive-tables.css' rel='stylesheet'/>
+    <link href='css/bootstrap-tour.min.css' rel='stylesheet'/>
+    <link href='css/jquery.noty.css' rel='stylesheet'/>
+    <link href='css/noty_theme_default.css' rel='stylesheet'/>
+    <link href='css/elfinder.min.css' rel='stylesheet'/>
+    <link href='css/elfinder.theme.css' rel='stylesheet'/>
+    <link href='css/jquery.iphone.toggle.css' rel='stylesheet'/>
+    <link href='css/uploadify.css' rel='stylesheet'/>
+    <link href='css/animate.min.css' rel='stylesheet'/>
+    <link href='css/mine.css' rel='stylesheet'/>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script language="javascript" src="js/jquery.form.js"></script>
+
+    <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- The fav icon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+</head>
+
+<body>
+    <!-- topbar starts -->
+    <div class="navbar navbar-default" role="navigation" >
+
+        <div class="navbar-inner" style="font-size: 25px;line-height: 50px;padding-left: 20px;color: white;">
+			广告管理
+        </div>
+    </div>
+    <!-- topbar ends -->
+<div class="ch-container">
+    <div class="row">
+
+    <div id="content" class="col-lg-8 col-sm-8">
+    <!-- content starts -->
+	<button id="addAdvBtn" class="btn btn-primary btn-sm">添加广告</button>
+	<div class="modal" id="mymodal">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	        	<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title">添加广告对话框</h4>
+				</div>
+				<div class="modal-body">
+					<form action="MainServlet?type=12" role="form"  method="post" enctype="multipart/form-data" name="addadv" id="addadv">
+						<div class="box col-md-12">
+					        <div class="box-inner">
+					            <div class="box-header well" data-original-title="">
+					                <h2><i class="glyphicon glyphicon-edit"></i> 必填信息</h2>
+					            </div>
+					            <div class="box-content">
+				                    <div class="form-group">
+				                        <label for="exampleInputEmail1">输入广告名称</label>
+				                        <input type="text" class="form-control" id="advname" name="advname" placeholder="输入广告名称"/>
+				                    </div>
+				                    <div class="form-group">
+				                        <label for="exampleInputFile">上传广告图片</label>
+				                        <input type="file" id="advimg" name="advimg" accept="image/*"/>
+				                    </div>
+					            </div>
+					        </div>
+					    </div>
+					    <div class="box col-md-12">
+					        <div class="box-inner">
+					            <div class="box-header well" data-original-title="">
+					                <h2><i class="glyphicon glyphicon-edit"></i> 可填信息</h2>
+					            </div>
+					            <div class="box-content selectable">
+				                   <label>选择该广告的情境偏好（只需选择具有强关联的情境）</label>
+				                   <div class="form-group">
+				                        <div class="form-group" id="test1">
+				                        	<div class="col-sm-4" id="age">
+											    <select class="form-control input-sm" tag="0" name="age"> 
+											      <option value="">选择年龄段倾向</option> 
+											    </select>
+										    </div>
+										    <div class="col-sm-4" id="gender">
+											    <select class="form-control input-sm" tag="1" name="age"> 
+											      <option value="">选择性别倾向</option> 
+											    </select>
+										    </div>
+										    <div class="col-sm-4" id="regiontype">
+											    <select class="form-control input-sm" tag="2" name="regiontype"> 
+											      <option value="">选择区域类型倾向</option> 
+											    </select>
+										    </div>
+				                        </div>
+				                        <div class="form-group" id="test1">
+				                        	<div class="col-sm-4" id="province">
+											    <select class="form-control input-sm" tag="3" name="province"> 
+											      <option value="">选择省份倾向</option> 
+											    </select>
+										    </div>
+										    <div class="col-sm-4" id="city" tag="11">
+											    <select class="form-control input-sm"  name="city"> 
+											      <option value="">选择城市倾向</option> 
+											    </select>
+										    </div>
+										    <div class="col-sm-4" id="time">
+											    <select class="form-control input-sm" tag="4" name="time"> 
+											      <option value="">选择时间倾向</option> 
+											    </select>
+										    </div>
+				                        </div>
+				                        <div class="form-group" id="test1">
+				                        	<div class="col-sm-4" id="voca">
+											    <select class="form-control input-sm" tag="5" name="voca"> 
+											      <option value="">是否与假期相关？</option> 
+											    </select>
+										    </div>
+										    <div class="col-sm-4" id="sport">
+											    <select class="form-control input-sm" tag="6" name="sport"> 
+											      <option value="">是否适宜运动？</option> 
+											    </select>
+										    </div>
+										    <div class="col-sm-4" id="trav">
+											    <select class="form-control input-sm" tag="7" name="trav"> 
+											      <option value="">是否适宜旅游？</option> 
+											    </select>
+										    </div>
+				                        </div>
+				                        <div class="form-group" id="test1">
+				                        	<div class="col-sm-4" id="air">
+											    <select class="form-control input-sm"  tag="8" name="air"> 
+											      <option value="">选择空气质量倾向</option> 
+											    </select>
+										    </div>
+										    <div class="col-sm-4" id="temp">
+											    <select class="form-control input-sm" tag="9" name="temp"> 
+											      <option value="">选择温度倾向</option> 
+											    </select>
+										    </div>
+										    <div class="col-sm-4" id="weather">
+											    <select class="form-control input-sm" tag="10" name="weather"> 
+											      <option value="">选择天气倾向</option> 
+											    </select>
+										    </div>
+				                        </div>
+				                    </div>
+				                    
+					            </div>
+					        </div>
+					    </div>
+				    </form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" id="closeModel" class="btn btn-default" data-dismiss="modal">关闭</button>
+					<button type="button" id="saveBtn" class="btn btn-primary">提交</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+    <div class="row">
+    <div class="box col-md-12">
+    <div class="box-inner">
+    <div class="box-header well" data-original-title="">
+        <h2><i class="glyphicon glyphicon-user"></i> 广告展示</h2>
+
+    </div>
+    <div class="box-content">
+    <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
+    <thead>
+    <tr>
+        <th>序号</th>
+        <th>广告ID</th>
+        <th>广告名称</th>
+        <th>广告链接</th>
+    </tr>
+    </thead>
+    <tbody id="advContent">
+    <!-- <tr>
+        <td>David R</td>
+        <td class="center">2012/01/01</td>
+        <td class="center">Member</td>
+        <td class="center"></td>
+    </tr> -->
+    
+    </tbody>
+    </table>
+    </div>
+    </div>
+    </div>
+    <!--/span-->
+
+    </div><!--/row-->
+    
+    <!-- content ends -->
+	
+    </div><!--/#content.col-md-0-->
+</div><!--/fluid-row-->
+
+    <hr>
+
+    <footer class="row">
+        <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="http://usman.it" target="_blank">Muhammad
+                Usman</a> 2012 - 2015</p>
+
+        <p class="col-md-3 col-sm-3 col-xs-12 powered-by">Powered by: <a
+                href="http://usman.it/free-responsive-admin-template">Charisma</a></p>
+    </footer>
+
+</div><!--/.fluid-container-->
+
+<!-- external javascript -->
+
+<script src="js/bootstrap.min.js"></script>
+
+<!-- library for cookie management -->
+<script src="js/jquery.cookie.js"></script>
+<!-- calender plugin -->
+<script src='js/moment.min.js'></script>
+<script src='js/fullcalendar.min.js'></script>
+<!-- data table plugin -->
+<script src='js/jquery.dataTables.min.js'></script>
+
+<!-- select or dropdown enhancer -->
+<script src="js/chosen.jquery.min.js"></script>
+<!-- plugin for gallery image view -->
+<script src="js/jquery.colorbox-min.js"></script>
+<!-- notification plugin -->
+<script src="js/jquery.noty.js"></script>
+<!-- library for making tables responsive -->
+<script src="js/responsive-tables.js"></script>
+<!-- tour plugin -->
+<script src="js/bootstrap-tour.min.js"></script>
+<!-- star rating plugin -->
+<script src="js/jquery.raty.min.js"></script>
+<!-- for iOS style toggle switch -->
+<script src="js/jquery.iphone.toggle.js"></script>
+<!-- autogrowing textarea plugin -->
+<script src="js/jquery.autogrow-textarea.js"></script>
+<!-- multiple file upload plugin -->
+<script src="js/jquery.uploadify-3.1.min.js"></script>
+<!-- history.js for cross-browser state change on ajax -->
+<script src="js/jquery.history.js"></script>
+<!-- application script for Charisma demo -->
+<script src="js/charisma.js"></script>
+<script src="js/mine.js"></script>
+
+</body>
+</html>
