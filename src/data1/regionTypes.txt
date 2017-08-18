@@ -1,0 +1,7 @@
+1,商业区,business
+2,住宅区,residential
+3,学区,school
+4,轻工业区,light industry
+5,重工业区,heavy industry
+6,风景区,tourism
+7,文化娱乐区,culture entertainment

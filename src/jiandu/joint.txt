@@ -1,0 +1,44 @@
+18~40,Male, , , , , ,1, , , , ;nanshipaoxie
+18~40,Female, , , , , , , , ,-3~3, ;hushoushuang
+18~40, ,1, , , ,1, , , , , ;afandadianying
+ , , ,320000,320100, , , ,1, , , ;fuzimiao
+18~40,Male,3, , , , , , , , , ;bijiben
+ , , , , ,11~13, , , , , ,307;waimai
+ , ,2, , , , , , , , , ;hongmujiaju
+41~65,Male, , , , , , , , ,30~34, ;pijiu
+4~6, , , , , , , , , , , ;ertongwanju
+ , , , , ,6~9, , , , , , ;qinglumantou
+ , ,1, , , ,1, , , , , ;jialefuchaoshi
+ , ,1,320000, , , , , , , , ;suguochaoshi
+ , ,2, , , , , , , , , ;mumen
+7~17, ,3, , , , , , , , , ;jiaoyu
+ , , ,310000, , , , , , , , ;shanghaidishini
+41~65,Male,1, , , , , , , , , ;mingguishoubiao
+1~3, , , , , , , , , , , ;yingeryongpin
+7~17, , , , , , , , , , , ;xuexiji
+41~65,Male, , , , , , , , , , ;qipilangtxu
+41~65,Female, , , , , , , , , , ;zhongniannvbao
+4~6,Female, , , , , , , , , , ;weiweiyixiaohenqingchengdianying
+4~6, ,1, , , , , , , , , ;fengkuangdongwuchengdianying
+18~40, , , , ,18~24, , , , , , ;shituxingzhedianying
+66~100, , , , , , , , , , , ;laoniangongyu
+1~3, , , , , , , , , , , ;naifen
+7~17, ,3, , , , , , , , , ;jiajiao
+18~40,Female, , , , , , , , , , ;huazhuangpin
+ , ,1, , , , , , , , , ;yinliao
+ , ,2, , , , , , , , , ;fangchan
+ , ,2, , , , , , , , , ;gongyuan
+ , ,6,340000,341000, , , , , , , ;huangshan
+ , ,7, , , , , , , , , ;youleyuan
+ , , , , ,11~13, , , , , , ;chaozhiwucan
+ , , , , ,16~18, , , , , , ;meishi
+ , , , , ,18~24, , , , , , ;binguan
+ , , , , , ,2, ,1, , , ;lvyou
+18~40, , , , , , ,1, , , ,307;paobuji
+ , , , , , , , , ,201~300, , ;kongqijinghuaqi
+18~40,Female, , , , , , , , ,-3~3, ;yurongfu
+ , , , , , , , , , ,30~34, ;kongdiao
+ , , , , , , , , , , ,300;yusan
+ , , , , , , , , , , ,306;yusan1
+ , , ,320000,320100, , , , , ,20~29, ;zhongshanling
+ , , , , ,12~18, , , , , , ;xiawucha

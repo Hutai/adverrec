@@ -1,0 +1,6 @@
+0-3,婴儿 宝宝,baby infant
+4-6,小孩,child
+7-17,学生 少年,juvenile youngster
+18-40,青年 年轻,youth young
+41-65,中年,middle aged
+66-100,老年,elderly

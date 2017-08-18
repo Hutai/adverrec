@@ -1,0 +1,5 @@
+1,空气质量优,0-50,excellent air quality
+2,空气质量良,51-100,good air quality
+3,轻度污染,101-200,slightly polluted air quality
+4,中度污染,201-300,moderate pollution air quality
+5,重度污染,300,inf,extremely polluted air quality

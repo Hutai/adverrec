@@ -1,0 +1,13 @@
+0~6,凌晨,before dawn
+6~7,清晨,early morning
+6~9,早晨,morning
+6~12,上午,morning
+11~13,中午,noon
+12~18,下午,afternoon
+18~24,晚上,night
+0~4,晚上,night
+16~18,黄昏,dusk
+16~18,傍晚,nightfall
+23~24,半夜,midnight
+0~1,半夜,midnight
+0~5,深夜,late at night

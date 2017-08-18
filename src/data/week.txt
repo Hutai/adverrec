@@ -1,0 +1,7 @@
+1,星期一 周一 上班,monday
+2,星期二 周二 上班,tuesday
+3,星期三 周三 上班,wednesday
+4,星期四 周四 上班,thursday
+5,星期五 周五 上班,friday
+6,星期六 周六 周末 星期天 休息,saturday
+7,星期日 周日 周末 星期天 休息,sunday

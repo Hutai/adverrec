@@ -1,0 +1,7 @@
+1,星期一,monday
+2,星期二,tuesday
+3,星期三,wednesday
+4,星期四,thursday
+5,星期五,friday
+6,星期六,saturday
+7,星期日,sunday

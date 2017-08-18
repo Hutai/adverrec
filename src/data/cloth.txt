@@ -1,0 +1,7 @@
+35~45,炎热 温度,hot weather summer,暖
+30~34,热 炎热 温度,heat weather,暖
+20~29,舒适 温度,comfort weather, 
+13~19,较舒适 温度,little comfort weather, 
+4~12,较冷 有点冷 略 温度,little cold weather,凉 晒
+-3~3,冷 寒冷 温度,cold weather,凉 晒
+-30~-2,寒冷 温度,extremely cold weather,凉 晒

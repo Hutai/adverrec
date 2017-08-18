@@ -1,0 +1,7 @@
+1,Ñ×ÈÈ,hot weather summer
+2,ÈÈ,heat weather
+3,ÊæÊÊ,comfort weather
+4,½ÏÊæÊÊ,little comfort weather
+5,½ÏÀä,little cold weather
+6,Àä,cold weather
+7,º®Àä,extremely cold weather
