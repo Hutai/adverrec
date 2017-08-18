@@ -1,2 +1,3 @@
 # adverrec
-Digital billboard advertising intelligent recommendation system
+数字广告牌广告智能推荐系统
+根据人脸识别相关技术以及地理信息、时间信息和天气信息获得数字广告牌观察者所感兴趣的广告，然后把合适的广告展示给摄像头前的观察者。管理员可以手动添加广告，同时可以添加该广告的情境偏好信息，在下次出现同样的情境信息的时候，优先推荐该广告。
